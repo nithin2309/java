@@ -1,9 +1,14 @@
-public class StringDemo{
+
+public class StringDemo {
+
     public static void main(String[] args) {
-        String str="Hello";
-        String str1=new String("Hello");
-        for(int i=0;i<str.length();i++){
-            System.out.print(str.charAt(i));
+        String str = "Hello";
+        String str1 = "hello";
+        if (str == str1) {
+            System.out.println("same");
+
+        } else {
+            System.out.println("not same");
         }
     }
 }
